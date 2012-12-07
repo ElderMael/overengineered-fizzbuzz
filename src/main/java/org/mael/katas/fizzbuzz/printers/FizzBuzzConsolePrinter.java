@@ -9,8 +9,8 @@ public class FizzBuzzConsolePrinter implements FizzBuzzPrinter {
 	}
 
 	@Override
-	public void printFizzBuzz(FizzBuzz fizzBuzz) {
-
+	public void print(String turn) {
+		System.out.println(turn);
 	}
 
 }

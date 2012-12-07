@@ -4,6 +4,6 @@ import org.mael.katas.fizzbuzz.FizzBuzz;
 
 public interface FizzBuzzPrinter {
 
-	void printFizzBuzz(FizzBuzz fizzBuzz);
+	void print(String turn);
 
 }
